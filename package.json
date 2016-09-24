@@ -1,7 +1,7 @@
 {
   "name": "math-bdays",
   "version": "1.0.0",
-  "description": "My beautiful module",
+  "description": "Math Bdays node module",
   "license": "MIT",
   "repository": "alejandronanez/math-bdays",
   "author": {
@@ -13,7 +13,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "shrinkpack": "shrinkpack"
   },
   "files": [
     "index.js"
@@ -26,6 +27,7 @@
   },
   "devDependencies": {
     "ava": "^0.14.0",
+    "shrinkpack": "^0.17.0",
     "xo": "^0.15.0"
   }
 }
