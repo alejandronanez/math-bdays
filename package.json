@@ -1,0 +1,31 @@
+{
+  "name": "math-bdays",
+  "version": "0.0.0",
+  "description": "My beautiful module",
+  "license": "MIT",
+  "repository": "alejandronanez/math-bdays",
+  "author": {
+    "name": "Alejandro Nanez",
+    "email": "alejonanez@gmail.com",
+    "url": "github.com/alejandronanez"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "xo": "^0.15.0"
+  }
+}
